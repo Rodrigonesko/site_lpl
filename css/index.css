@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #032457;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.home-section {
+    color: #032457;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.apresentation h1 {
+    margin-bottom: 20px;
+}
+
+.apresentation p {
+    margin-bottom: 15px;
+}
+
+.btn-padrao {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-padrao:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.background-blue {
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.logo-home img {
+    width: 400px;
+    height: 350;
+}
+
+.about-section {
+    margin-top: 30px;
+    color: #032457;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.about {
+    margin-right: 15px;
+}
+
+.about h1,
+.about p {
+    margin-bottom: 30px;
+}
+
+.img-about img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+.contact-section {
+    margin-top: 30px;
+    color: #032457;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.info-contact h1 {
+    margin-bottom: 15px;
+}
+
+.clients-section {
+    margin-top: 30px;
+    color: #032457;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.client-title {
+    margin-bottom: 20px;
+}
+
+.client-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-client img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin-right: 10px;
+    color: #032457;
+    transition: all 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #0045ac;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #032457;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 3px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid lightblue;
+    background-color: #032457;
+    color: #ffffff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: aliceblue;
+}
+
+.contact-form button {
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.info-footer {
+    color: #032457;
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-copyright {
+    background-color: #afafaf;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+    font-size: small;
+}
+
+/* mobile */
+
+@media(max-width: 991px) {
+
+    .home-section,
+    .about-section,
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .logo-home img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .img-about img {
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+}
