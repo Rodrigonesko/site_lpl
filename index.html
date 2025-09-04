@@ -4,46 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="imagex/png" href="imgs/icone.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>LPL Assessoria em Seguros - Serviços Administrativos Especializados | Curitiba</title>
+    <meta name="description" content="LPL Assessoria em Seguros oferece serviços administrativos especializados em investigações, planos de saúde, tele entrevistas, criação de sistemas, chatbots WhatsApp e integração com IA em Curitiba. Expertise em prevenção de fraudes e soluções tecnológicas avançadas com mais de 7 anos de experiência.">
+    <meta name="keywords" content="assessoria seguros, investigações, planos saúde, tele entrevistas, criação sistemas, chatbots whatsapp, inteligência artificial, Curitiba, serviços administrativos, prevenção fraudes, desenvolvimento web">
+    <meta name="author" content="LPL Assessoria em Seguros">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LPL Assessoria em Seguros - Serviços Administrativos Especializados">
+    <meta property="og:description" content="Empresa especializada em investigações, serviços administrativos, tele entrevistas, criação de sistemas, chatbots WhatsApp e integração com IA para o setor de seguros em Curitiba. Mais de 7 anos de experiência.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lplseguros.com.br">
+    <meta property="og:image" content="imgs/Logo_LPL_Azul.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LPL Assessoria em Seguros">
+    <meta name="twitter:description" content="Serviços administrativos especializados em investigações, planos de saúde, tele entrevistas, criação de sistemas, chatbots WhatsApp e integração com IA. Mais de 7 anos de experiência.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="imgs/icone.png">
+    <link rel="apple-touch-icon" href="imgs/icone.png">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1e40af">
+    <meta name="msapplication-TileColor" content="#1e40af">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
+    
+    <!-- Scripts -->
     <script src="js/header.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <title>LPL</title>
+    <script src="js/performance.js" defer></script>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LPL Assessoria em Seguros",
+      "description": "Empresa especializada em serviços administrativos, investigações e planos de saúde",
+      "url": "https://lplseguros.com.br",
+      "logo": "https://lplseguros.com.br/imgs/Logo_LPL_Azul.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. República Argentina, 1307",
+        "addressLocality": "Curitiba",
+        "addressRegion": "PR",
+        "postalCode": "80620-010",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-41-XXXXX-XXXX",
+        "contactType": "customer service",
+        "email": "administrador@lplseguros.com.br"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/lpl-assessoria-em-seguros/mycompany/",
+        "https://www.facebook.com/profile.php?id=100089350415796"
+      ]
+    }
+    </script>
 </head>
 
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
 
-    <header class="header">
+    <header class="header" role="banner">
         <div class="container">
             <div class="header-main">
                 <div class="logo">
-                    <a href="#"><img src="imgs/icone-fundo-branco-small.jpg" alt=""></a>
+                    <a href="#" aria-label="LPL Assessoria em Seguros - Página Inicial">
+                        <img src="imgs/icone-fundo-branco-small.jpg" alt="Logo LPL Assessoria em Seguros" width="40" height="40">
+                    </a>
                 </div>
-                <div class="open-nav-menu">
+                <button class="open-nav-menu" aria-label="Abrir menu de navegação" aria-expanded="false">
                     <span></span>
-                </div>
-                <div class="menu-overlay">
-                </div>
-                <!-- navigation menu start -->
-                <nav class="nav-menu">
-                    <div class="close-nav-menu">
-                        <svg xmlns="http://www.w3.org/2000/svg" class='close' width="40" height="50" fill="currentColor"
-                            class="bi bi-x" viewBox="0 0 16 16">
-                            <path
-                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </button>
+                <div class="menu-overlay" aria-hidden="true"></div>
+                
+                <nav class="nav-menu" role="navigation" aria-label="Menu principal">
+                    <button class="close-nav-menu" aria-label="Fechar menu de navegação">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
                         </svg>
-                    </div>
+                    </button>
                     <ul class="menu">
                         <li class="menu-item">
-                            <a href="#home-section">Home</a>
+                            <a href="#hero-section">Início</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#about-section">Sobre</a>
+                            <a href="#about-section">Sobre Nós</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#client-section">Clientes</a>
+                            <a href="#services-section">Serviços</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#clients-section">Clientes</a>
                         </li>
                         <li class="menu-item">
                             <a href="#contact-section">Contato</a>
@@ -53,144 +122,605 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="main-section">
-            <section class="home-section" id="home-section">
-                <div class="apresentation">
-                    <h1>LPL ASSESSORIA EM SEGUROS</h1>
-                    <p>Serviços administrativos</p>
-                    <a href="#contact-section" class="btn-padrao background-blue">Entre em contato</a>
-                </div>
-                <div class="logo-home">
-                    <img src="imgs/logotipo-vertical-fundos-branco.jpg" alt="">
-                </div>
-            </section>
-            <section class="about-section" id="about-section">
-                <div class="about">
-                    <div>
-                        <h1>Sobre nós</h1>
-                    </div>
-                    <div>
-                        <p>Somos uma empresa prestadora de serviços administrativos, com foco em investigações,
-                            localizada em Curitiba. hoje em dia temos como cliente principal a Amil.</p>
-                        <p><strong>O que fazemos?</strong> Temos células especializadas em investigações de Fraude e
-                            adesões de planos de saúde.</p>
-                    </div>
-                    <div>
-                        <button class="btn-padrao background-blue" id="btn-learn-more">Saiba mais</button>
-                    </div>
-                    <div class="learn-more" style="display: none">
-                        <div>
-                            <h1>Um pouco sobre nós e nossos valores</h1>
-                        </div>
-                        <div>
-                            <h1>ÁRVORE DA VIDA</h1>
-                            <p>Além de representar as ramificações nas quais a empresa se desdobrou, a árvore da vida
-                                foi incluída ao logotipo por ser um símbolo de proteção e de equilíbrio, além de
-                                representar a busca pelo aprimoramento pessoal.</p>
-                        </div>
-                        <div>
-                            <div>
 
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="hero-subtitle">Excelência em</span>
+                            Assessoria em Seguros
+                        </h1>
+                        <p class="hero-description">
+                            Especializados em serviços administrativos, investigações de fraudes, adesões de planos de saúde, 
+                            tele entrevistas, desenvolvimento de sistemas personalizados, criação de chatbots para WhatsApp e 
+                            integração com inteligência artificial. Mais de 7 anos de experiência garantindo segurança e 
+                            confiabilidade para nossos clientes.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact-section" class="btn btn-primary">
+                                Solicitar Orçamento
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </a>
+                            <a href="#about-section" class="btn btn-secondary">
+                                Saiba Mais
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">7+</span>
+                                <span class="stat-label">Anos de Experiência</span>
                             </div>
-                            <h1>Liderança Proteção Longevidade</h1>
-                        </div>
-                        <div>
-                            <h1>ESCUDO</h1>
-                            <p>O escudo é conhecido por ser uma das principais armas de defesa da antiguidade, incluíndo
-                                ao conceito da LPL, ele representa o papel da empresa na vida do cliente, trazendo
-                                proteção e segurança.</p>
                         </div>
                     </div>
-                </div>
-                <div class="img-about">
-                    <img src="imgs/Logo_LPL_Azul.jpg" alt="">
-                </div>
-            </section>
-            <section class="clients-section" id="client-section">
-                <div class="client-title">
-                    <h1>Clientes</h1>
-                </div>
-                <div class="clients">
-                    <div class="client-card">
-                        <div class="img-client">
-                            <img src="imgs/amil-logo.jpg" alt="">
-                        </div>
-                        <h3>Amil</h3>
+                    <div class="hero-image">
+                        <img src="imgs/logotipo-vertical-fundos-branco.jpg" alt="LPL Assessoria em Seguros - Logotipo" width="400" height="350">
+                        <div class="hero-image-decoration"></div>
                     </div>
                 </div>
-            </section>
-            <section class="contact-section" id="contact-section">
-                <div class="info-contact">
-                    <h1>Contate-nos</h1>
-                    <div>
-                        <p><strong>Nome: </strong>LPL assessoria em seguros</p>
-                        <p><strong>Endereço: </strong>Av. República Argentina, 1307 - Água Verde, Curitiba - PR,
-                            80620-010</p>
-                        <p><strong>Horário: </strong>08:00 às 18:00</p>
-                        <p><strong>Email: </strong>administrador@lplseguros.com.br</p>
-                    </div>
-                    <div class="contact-icons">
-                        <a href="https://www.linkedin.com/company/lpl-assessoria-em-seguros/mycompany/" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                class="bi bi-linkedin" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                            </svg>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=100089350415796" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                class="bi bi-facebook" viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                            </svg>
-                        </a>
-
-                    </div>
-                </div>
-                <form action="php/email.php" class="contact-form">
-                    <input type="text" name="name" id="name" placeholder="Nome">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="text" name="phone" id="phone" placeholder="Celular para contato">
-                    <input type="text" name="subject" id="subject" placeholder="Assunto">
-                    <textarea name="message" id="message" placeholder="Mensagem" cols="40" rows="8"></textarea>
-                    <div>
-                        <button class="btn-padrao" name="submit">Enviar</button>
-                    </div>
-                </form>
-            </section>
+            </div>
+            <div class="hero-background"></div>
         </section>
-        <footer class="footer">
-            <div class="info-footer">
-                <h3>LPL assessoria em seguros</h3>
-                <p>Serviços administrativos</p>
-                <div class="contact-icons">
-                    <a href="https://www.linkedin.com/company/lpl-assessoria-em-seguros/mycompany/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                            class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100089350415796" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>
-                    </a>
-
+        <!-- About Section -->
+        <section class="about-section" id="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre a LPL</h2>
+                    <p class="section-subtitle">Conheça nossa história e valores</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-main">
+                            <h3>Quem Somos</h3>
+                            <p>
+                                Somos uma empresa prestadora de serviços administrativos com sede em Curitiba, 
+                                especializada em investigações e soluções para o setor de seguros. Com mais de 
+                                7 anos de experiência, construímos uma reputação sólida baseada na excelência 
+                                e confiabilidade de nossos serviços.
+                            </p>
+                            <p>
+                                <strong>Nossa Especialidade:</strong> Desenvolvemos células especializadas em 
+                                investigações de fraudes e processos de adesão de planos de saúde, oferecendo 
+                                soluções personalizadas para cada necessidade.
+                            </p>
+                        </div>
+                        
+                        <button class="btn btn-outline" id="btn-learn-more" aria-expanded="false">
+                            <span>Conheça Nossos Valores</span>
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="values-content" id="values-content" aria-hidden="true">
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                                    </svg>
+                                </div>
+                                <div class="value-content">
+                                    <h4>Proteção</h4>
+                                    <p>O escudo em nosso logotipo representa nossa missão de oferecer proteção e segurança aos nossos clientes, sendo sua principal defesa contra fraudes e irregularidades.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                        <path d="M6.5 0C2.91 0 0 2.91 0 6.5S2.91 13 6.5 13 13 10.09 13 6.5 10.09 0 6.5 0zm0 12C3.467 12 1 9.533 1 6.5S3.467 1 6.5 1 12 3.467 12 6.5 9.533 12 6.5 12z"/>
+                                    </svg>
+                                </div>
+                                <div class="value-content">
+                                    <h4>Longevidade</h4>
+                                    <p>A árvore da vida simboliza nosso crescimento contínuo e ramificações de serviços, representando equilíbrio e busca constante pelo aprimoramento.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8.5 2.5L8 1l-.5 1.5h-1L8 4l1.5-1.5h-1z"/>
+                                        <path d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+                                    </svg>
+                                </div>
+                                <div class="value-content">
+                                    <h4>Liderança</h4>
+                                    <p>Mantemos posição de liderança no mercado através da inovação, qualidade e comprometimento com a excelência em todos os nossos processos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="imgs/Logo_LPL_Azul.jpg" alt="Logo LPL - Árvore da Vida e Escudo representando nossos valores" width="450" height="450">
+                        <div class="about-image-decoration"></div>
+                    </div>
                 </div>
             </div>
-            <div class="info-copyright">
-                <span>© 2023 copyright - Rodrigo Onesko Dias</span><span>LPL SERVIÇOS ADMINISTRATIVOS EIRELI</span>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossos Serviços</h2>
+                    <p class="section-subtitle">Soluções especializadas para suas necessidades</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Investigações de Fraude</h3>
+                        <p>Identificação e prevenção de fraudes em seguros através de investigações detalhadas e metodologia especializada.</p>
+                        <ul class="service-features">
+                            <li>Análise de documentos</li>
+                            <li>Investigação de campo</li>
+                            <li>Relatórios técnicos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            </svg>
+                        </div>
+                        <h3>Adesões de Planos</h3>
+                        <p>Gestão completa de processos de adesão a planos de saúde, garantindo conformidade e agilidade.</p>
+                        <ul class="service-features">
+                            <li>Validação de documentos</li>
+                            <li>Análise de elegibilidade</li>
+                            <li>Acompanhamento processual</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zM1 5v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5H1z"/>
+                                <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                            </svg>
+                        </div>
+                        <h3>Tele Entrevistas</h3>
+                        <p>Realização de entrevistas remotas especializadas para investigações e validações de processos.</p>
+                        <ul class="service-features">
+                            <li>Entrevistas estruturadas</li>
+                            <li>Validação de informações</li>
+                            <li>Relatórios detalhados</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zM1.175 1A.146.146 0 0 0 1 1.146v13.708c0 .08.066.146.175.146h13.65a.146.146 0 0 0 .175-.146V1.146A.146.146 0 0 0 14.825 1H1.175z"/>
+                                <path d="M8 1.854a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708.708L9.207 1.854h4.647a.5.5 0 0 1 0 1H1.146a.5.5 0 0 1 0-1h4.647L4.146.207a.5.5 0 0 1 .708-.708l2 2A.5.5 0 0 1 8 1.854zM2 5.854V14h12V5.854H2zm10.854-1a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5H3.146a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h9.708z"/>
+                            </svg>
+                        </div>
+                        <h3>Criação de Sistemas</h3>
+                        <p>Desenvolvimento de sistemas personalizados para otimização de processos administrativos e operacionais.</p>
+                        <ul class="service-features">
+                            <li>Sistemas web personalizados</li>
+                            <li>Automação de processos</li>
+                            <li>Integração de dados</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.644-.182-.067-.315-.099-.445.099-.133.197-.513.644-.627.777-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.067-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.692.677-.692 1.654 0 .976.708 1.916.806 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                            </svg>
+                        </div>
+                        <h3>Chatbots no WhatsApp</h3>
+                        <p>Desenvolvimento de chatbots inteligentes para WhatsApp, automatizando atendimento e melhorando a experiência do cliente.</p>
+                        <ul class="service-features">
+                            <li>Atendimento automatizado 24/7</li>
+                            <li>Integração com sistemas</li>
+                            <li>Fluxos personalizados</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 13 4.5v1.384l-4.094 2.614L13 13.117V15.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1-1 15.5v-2.383L3.094 8.498-1 5.884V4.5A2.5 2.5 0 0 1 1.5 2V.5A.5.5 0 0 1 2 0h.5a.5.5 0 0 1 0 1H2v1h1V.5A.5.5 0 0 1 3.5 0H4a.5.5 0 0 1 0 1h-.5v1h1V.5A.5.5 0 0 1 5 0z"/>
+                                <path d="M6.5 5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5H7a.5.5 0 0 0-.5.5zM7 6h2v2H7V6z"/>
+                                <path d="M.5 3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V3zm1 0v8h3V3H1.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Integração com IA</h3>
+                        <p>Implementação de soluções de inteligência artificial para otimizar processos, análise de dados e tomada de decisões.</p>
+                        <ul class="service-features">
+                            <li>Análise automatizada</li>
+                            <li>Processamento de linguagem</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.354 1.25 1.25a.5.5 0 0 1-.708.708L13 12.207l-.646.647a.5.5 0 0 1-.708-.708l1.25-1.25a.5.5 0 0 1 .708 0Z"/>
+                                <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                                <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+                            </svg>
+                        </div>
+                        <h3>Serviços Administrativos</h3>
+                        <p>Apoio administrativo especializado para otimizar processos e garantir eficiência operacional.</p>
+                        <ul class="service-features">
+                            <li>Gestão documental</li>
+                            <li>Consultoria especializada</li>
+                            <li>Suporte operacional</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </footer>
+        </section>
+        <!-- Clients Section -->
+        <section class="clients-section" id="clients-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossos Clientes</h2>
+                    <p class="section-subtitle">Empresas que confiam em nossos serviços</p>
+                </div>
+                
+                <div class="clients-content">
+                    <div class="client-highlight">
+                        <div class="client-card main-client">
+                            <div class="client-logo">
+                                <img src="imgs/amil-logo.jpg" alt="Amil - Cliente Principal" width="120" height="120">
+                            </div>
+                            <div class="client-info">
+                                <h3>Amil</h3>
+                                <p class="client-badge">Cliente Principal</p>
+                                <p class="client-description">
+                                    Parceria sólida que demonstra nossa expertise em investigações, 
+                                    serviços de tele entrevista e processos administrativos no setor 
+                                    de saúde suplementar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="clients-grid">
+                        <div class="client-card">
+                            <div class="client-info">
+                                <h4>Sul América</h4>
+                                <p class="client-description">
+                                    Parceria estratégica em serviços de investigação e validação 
+                                    de processos no segmento de seguros e saúde.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="client-card">
+                            <div class="client-info">
+                                <h4>Bradesco Saúde</h4>
+                                <p class="client-description">
+                                    Colaboração em processos de adesão e investigações 
+                                    especializadas no setor de planos de saúde.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="client-card">
+                            <div class="client-info">
+                                <h4>SSI Saúde</h4>
+                                <p class="client-description">
+                                    Prestação de serviços administrativos e tele entrevistas 
+                                    para otimização de processos internos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="section-subtitle">Pronto para começar? Vamos conversar sobre suas necessidades</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <p class="contact-intro">
+                            Nossa equipe especializada está pronta para atender suas necessidades. 
+                            Entre em contato conosco através dos canais abaixo.
+                        </p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Endereço</h4>
+                                    <p>Av. República Argentina, 1307<br>
+                                    Água Verde, Curitiba - PR<br>
+                                    CEP: 80620-010</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866-.5l-1.732-3a1 1 0 0 1 .866-1.5h1.732A2 2 0 0 0 11 8V6a3 3 0 0 0-6 0v2a2 2 0 0 0 1.732 1.732h.268z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Horário de Funcionamento</h4>
+                                    <p>Segunda a Sexta: 08h00 às 18h00<br>
+                                    Atendimento de emergência disponível</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8.761 8.83ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:administrador@lplseguros.com.br">administrador@lplseguros.com.br</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Siga-nos nas Redes Sociais</h4>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/company/lpl-assessoria-em-seguros/mycompany/" 
+                                   target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da LPL">
+                                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100089350415796" 
+                                   target="_blank" rel="noopener noreferrer" aria-label="Facebook da LPL">
+                                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form action="php/email.php" method="POST" class="contact-form" novalidate>
+                        <h3>Envie sua Mensagem</h3>
+                        <p class="form-description">Preencha o formulário e entraremos em contato em até 24 horas.</p>
+                        
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" name="name" id="name" required aria-describedby="name-error">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required aria-describedby="email-error">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" name="phone" id="phone" aria-describedby="phone-error">
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select name="subject" id="subject" required aria-describedby="subject-error">
+                                <option value="">Selecione um assunto</option>
+                                <option value="investigacao">Investigação de Fraudes</option>
+                                <option value="adesao">Adesão de Planos</option>
+                                <option value="tele-entrevistas">Tele Entrevistas</option>
+                                <option value="criacao-sistemas">Criação de Sistemas</option>
+                                <option value="chatbots">Chatbots no WhatsApp</option>
+                                <option value="integracao-ia">Integração com IA</option>
+                                <option value="administrativo">Serviços Administrativos</option>
+                                <option value="orcamento">Solicitação de Orçamento</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" rows="6" required aria-describedby="message-error"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit" name="submit">
+                            <span>Enviar Mensagem</span>
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <h3>LPL Assessoria em Seguros</h3>
+                        <p>Excelência em serviços administrativos, investigações e assessoria em seguros. 
+                           Protegendo seus interesses com expertise e confiabilidade.</p>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/company/lpl-assessoria-em-seguros/mycompany/" 
+                               target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100089350415796" 
+                               target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Serviços</h4>
+                            <ul>
+                                <li><a href="#services-section">Investigações de Fraude</a></li>
+                                <li><a href="#services-section">Adesões de Planos</a></li>
+                                <li><a href="#services-section">Tele Entrevistas</a></li>
+                                <li><a href="#services-section">Criação de Sistemas</a></li>
+                                <li><a href="#services-section">Chatbots no WhatsApp</a></li>
+                                <li><a href="#services-section">Integração com IA</a></li>
+                                <li><a href="#services-section">Serviços Administrativos</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Empresa</h4>
+                            <ul>
+                                <li><a href="#about-section">Sobre Nós</a></li>
+                                <li><a href="#clients-section">Clientes</a></li>
+                                <li><a href="#contact-section">Contato</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Contato</h4>
+                            <ul>
+                                <li>Av. República Argentina, 1307</li>
+                                <li>Curitiba - PR, 80620-010</li>
+                                <li><a href="mailto:administrador@lplseguros.com.br">administrador@lplseguros.com.br</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 LPL Serviços Administrativos EIRELI. Todos os direitos reservados.</p>
+                        <p class="footer-dev">Desenvolvido por <strong>Rodrigo Onesko Dias</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
     <script>
-        $("#btn-learn-more").click(function () {
-            $('.learn-more').toggle('fast')
-        })
+        // Values toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const btnLearnMore = document.getElementById('btn-learn-more');
+            const valuesContent = document.getElementById('values-content');
+            
+            if (btnLearnMore && valuesContent) {
+                btnLearnMore.addEventListener('click', function() {
+                    const isExpanded = valuesContent.style.display === 'block';
+                    const icon = this.querySelector('svg');
+                    
+                    if (isExpanded) {
+                        valuesContent.style.display = 'none';
+                        valuesContent.setAttribute('aria-hidden', 'true');
+                        this.setAttribute('aria-expanded', 'false');
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        valuesContent.style.display = 'block';
+                        valuesContent.setAttribute('aria-hidden', 'false');
+                        this.setAttribute('aria-expanded', 'true');
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            }
+            
+            // Form validation
+            const form = document.querySelector('.contact-form');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name');
+                    const email = document.getElementById('email');
+                    const subject = document.getElementById('subject');
+                    const message = document.getElementById('message');
+                    
+                    let isValid = true;
+                    
+                    // Clear previous errors
+                    document.querySelectorAll('.error-message').forEach(el => el.textContent = '');
+                    
+                    // Validate name
+                    if (!name.value.trim()) {
+                        document.getElementById('name-error').textContent = 'Nome é obrigatório';
+                        isValid = false;
+                    }
+                    
+                    // Validate email
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!email.value.trim()) {
+                        document.getElementById('email-error').textContent = 'Email é obrigatório';
+                        isValid = false;
+                    } else if (!emailRegex.test(email.value)) {
+                        document.getElementById('email-error').textContent = 'Email inválido';
+                        isValid = false;
+                    }
+                    
+                    // Validate subject
+                    if (!subject.value) {
+                        document.getElementById('subject-error').textContent = 'Selecione um assunto';
+                        isValid = false;
+                    }
+                    
+                    // Validate message
+                    if (!message.value.trim()) {
+                        document.getElementById('message-error').textContent = 'Mensagem é obrigatória';
+                        isValid = false;
+                    }
+                    
+                    if (isValid) {
+                        // Submit form
+                        this.submit();
+                    }
+                });
+            }
+            
+            // Smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
     </script>
 </body>
 

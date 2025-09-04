@@ -1,0 +1,28 @@
+{
+  "name": "LPL Assessoria em Seguros",
+  "short_name": "LPL Seguros",
+  "description": "Empresa especializada em serviços administrativos, investigações e planos de saúde em Curitiba",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "imgs/icone.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "imgs/icone.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "insurance", "professional"],
+  "lang": "pt-BR",
+  "scope": "/",
+  "prefer_related_applications": false
+}

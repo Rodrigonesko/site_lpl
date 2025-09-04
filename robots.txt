@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://lplseguros.com.br/sitemap.xml
+
+# Allow access to CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /imgs/
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl-delay for being respectful
+Crawl-delay: 1
