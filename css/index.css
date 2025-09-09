@@ -80,6 +80,7 @@ a:hover {
     padding: var(--spacing-3) var(--spacing-6);
     border: 2px solid transparent;
     border-radius: var(--rounded-lg);
+    font-family: var(--font-family-base);
     font-weight: 600;
     font-size: var(--text-base);
     text-decoration: none;
@@ -131,6 +132,7 @@ a:hover {
     background: transparent;
     color: var(--text-dark);
     border-color: var(--border-light);
+    font-family: var(--font-family-base);
 }
 
 .btn-outline:hover {
