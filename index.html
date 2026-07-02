@@ -65,7 +65,6 @@
 
     <!-- Scripts -->
     <script src="js/header.js" defer></script>
-    <script src="js/carousel.js" defer></script>
     <script src="js/performance.js" defer></script>
 
     <!-- Schema.org structured data -->
@@ -128,24 +127,23 @@
           <div class="menu-overlay" aria-hidden="true"></div>
 
           <nav class="nav-menu" role="navigation" aria-label="Menu principal">
-            <button
-              class="close-nav-menu"
-              aria-label="Fechar menu de navegação"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </button>
             <div class="mobile-menu-header">
-              <h3 class="mobile-menu-title">LPL Assessoria</h3>
+              <button
+                class="close-nav-menu"
+                aria-label="Fechar menu de navegação"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
             </div>
             <ul class="menu">
               <li class="menu-item">
@@ -158,7 +156,7 @@
                 <a href="#services-section">Serviços</a>
               </li>
               <li class="menu-item">
-                <a href="#clients-section">Clientes</a>
+                <a href="#clients-section">Experiências</a>
               </li>
               <li class="menu-item">
                 <a href="#contact-section">Contato</a>
@@ -577,98 +575,40 @@
             </p>
           </div>
 
-          <div class="clients-content">
-            <div class="clients-grid">
-              <div class="client-card">
-                <div class="client-logo">
-                  <img
-                    src="imgs/amil-logo.jpg"
-                    alt="Amil"
-                    width="120"
-                    height="120"
-                  />
-                </div>
-                <div class="client-info">
-                  <h3>Amil</h3>
-                  <p class="client-description">
-                    Parceria sólida que demonstra nossa expertise em
-                    investigações, serviços de tele entrevista e processos
-                    administrativos no setor de saúde suplementar.
-                  </p>
-                </div>
-              </div>
+          <div class="clients-showcase">
+            <div class="client-logo-item">
+              <img
+                src="imgs/amil-logo.svg"
+                alt="Amil"
+              />
+            </div>
 
-              <div class="client-card">
-                <div class="client-logo">
-                  <img
-                    src="imgs/sul-america-logo.png"
-                    alt="Sul América"
-                    width="120"
-                    height="120"
-                  />
-                </div>
-                <div class="client-info">
-                  <h3>Sul América</h3>
-                  <p class="client-description">
-                    Parceria estratégica em serviços de investigação e validação
-                    de processos no segmento de seguros e saúde.
-                  </p>
-                </div>
-              </div>
+            <div class="client-logo-item">
+              <img
+                src="imgs/sulamerica-saude-logo.png"
+                alt="Sul América"
+              />
+            </div>
 
-              <div class="client-card">
-                <div class="client-logo">
-                  <img
-                    src="imgs/bradesco-logo.png"
-                    alt="Bradesco Saúde"
-                    width="120"
-                    height="120"
-                  />
-                </div>
-                <div class="client-info">
-                  <h3>Bradesco Saúde</h3>
-                  <p class="client-description">
-                    Colaboração em processos de adesão e investigações
-                    especializadas no setor de planos de saúde.
-                  </p>
-                </div>
-              </div>
+            <div class="client-logo-item">
+              <img
+                src="imgs/bradesco-logo.svg"
+                alt="Bradesco Saúde"
+              />
+            </div>
 
-              <div class="client-card">
-                <div class="client-logo">
-                  <img
-                    src="imgs/ssi-logo.jpg"
-                    alt="SSI Saúde"
-                    width="120"
-                    height="120"
-                  />
-                </div>
-                <div class="client-info">
-                  <h3>SSI Saúde</h3>
-                  <p class="client-description">
-                    Prestação de serviços administrativos e tele entrevistas
-                    para otimização de processos internos.
-                  </p>
-                </div>
-              </div>
+            <div class="client-logo-item">
+              <img
+                src="imgs/ssi-saude-logo.svg"
+                alt="SSI Saúde"
+              />
+            </div>
 
-              <div class="client-card">
-                <div class="client-logo">
-                  <img
-                    src="imgs/sanepar-logo.png"
-                    alt="Sanepar"
-                    width="120"
-                    height="120"
-                  />
-                </div>
-                <div class="client-info">
-                  <h3>FUSAN</h3>
-                  <p class="client-description">
-                    Experiência em serviços administrativos e investigação
-                    especializada.
-                  </p>
-                </div>
-              </div>
+            <div class="client-logo-item">
+              <img
+                src="imgs/fusan-logo.svg"
+                alt="Fusan"
+              />
             </div>
           </div>
         </div>
@@ -756,32 +696,6 @@
                     <p>
                       <a href="mailto:administrador@lplseguros.com.br"
                         >administrador@lplseguros.com.br</a
-                      >
-                    </p>
-                  </div>
-                </div>
-
-                <div class="info-item">
-                  <div class="info-icon">
-                    <svg
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.644-.182-.067-.315-.099-.445.099-.133.197-.513.644-.627.777-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.067-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.692.677-.692 1.654 0 .976.708 1.916.806 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-                      />
-                    </svg>
-                  </div>
-                  <div class="info-content">
-                    <h4>WhatsApp</h4>
-                    <p>
-                      <a
-                        href="https://wa.me/554192012628?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20LPL%20Assessoria%20em%20Seguros."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >(41) 9 9201-2628</a
                       >
                     </p>
                   </div>
@@ -929,26 +843,6 @@
       </section>
     </main>
 
-    <!-- WhatsApp Float Button -->
-    <div class="whatsapp-float">
-      <a
-        href="https://wa.me/554192012628?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20LPL%20Assessoria%20em%20Seguros."
-        target="_blank"
-        rel="noopener noreferrer"
-        class="whatsapp-btn"
-        aria-label="Contato via WhatsApp"
-        title="Fale conosco pelo WhatsApp"
-      >
-        <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
-          <path
-            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.644-.182-.067-.315-.099-.445.099-.133.197-.513.644-.627.777-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.067-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.692.677-.692 1.654 0 .976.708 1.916.806 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-          />
-        </svg>
-        <span class="whatsapp-text">WhatsApp</span>
-      </a>
-      <div class="whatsapp-tooltip">Fale conosco pelo WhatsApp!</div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
       <div class="container">
@@ -1044,8 +938,8 @@
           <div class="footer-bottom">
             <div class="footer-copyright">
               <p>
-                &copy; 2024 LPL Serviços Administrativos LTDA. Todos os direitos
-                reservados.
+                &copy; 2024 LPL Serviços Administrativos LTDA. Todos os
+                direitos reservados.
               </p>
             </div>
           </div>
@@ -1146,7 +1040,7 @@
 
               // Prepare email data for NestJS API
               const emailData = {
-                to: "rodrigo.dias@lplseguros.com.br",
+                to: "administrador@lplseguros.com.br",
                 subject: `[Site LPL] ${subject.value} - ${name.value}`,
                 html: `
                   <h2>Nova mensagem do site LPL Assessoria</h2>
@@ -1251,39 +1145,6 @@
             }
           });
         });
-
-        // WhatsApp interactions
-        const whatsappButtons = document.querySelectorAll('a[href*="wa.me"]');
-
-        whatsappButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            // Track WhatsApp click (you can add analytics here)
-            console.log("WhatsApp button clicked");
-
-            // Add a small vibration effect if supported
-            if (navigator.vibrate) {
-              navigator.vibrate(100);
-            }
-          });
-        });
-
-        // Hide WhatsApp float when contact form is visible
-        const contactSection = document.getElementById("contact-section");
-        const whatsappFloat = document.querySelector(".whatsapp-float");
-
-        if (contactSection && whatsappFloat) {
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                whatsappFloat.style.opacity = "0.7";
-              } else {
-                whatsappFloat.style.opacity = "1";
-              }
-            });
-          });
-
-          observer.observe(contactSection);
-        }
       });
     </script>
   </body>
